@@ -171,7 +171,7 @@ function DetailStudent() {
                             classId: `${schoolClass?.id} + ${schoolClass?.name}` || '',
                             examName: exam?.name || '',
                             room: exam?.room || '',
-                            examDate: `${exam?.startTime} + ${exam?.duration}` || '',
+                            examDate: exam?.dateString,
                         })
                     }
                 }

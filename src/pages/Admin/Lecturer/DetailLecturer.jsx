@@ -58,7 +58,6 @@ function DetailLecturer() {
     let schoolClasses = schoolClassState?.schoolClasses || [];
 
     const [schedule, setSchedule] = useState(schoolClassState?.schoolClasses || []);
-    const [examSchedule, setExamSchedule] = useState([]);
 
     function getScheduleBySemester(semesterId) {
 

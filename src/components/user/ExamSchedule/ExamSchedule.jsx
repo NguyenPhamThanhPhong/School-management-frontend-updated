@@ -7,6 +7,7 @@ import { useState } from 'react';
 import Dropdown from 'react-bootstrap/Dropdown';
 function ExamSchedule(props) {
 
+    console.log(props.ExamData)
 
     const columns = [
         {

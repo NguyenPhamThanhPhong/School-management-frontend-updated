@@ -12,8 +12,6 @@ const onChange = (key) => {
   console.log(key);
 };
 //
-let SemesterSchedule = ["Semester 1 (2023-2024)", "Semester 2 (2023-2024)", "Semester summer (2023-2024)"]
-let SemesterExamSchedule = ["Semester 1 (2023-2024)", "Semester 2 (2023-2024)", "Semester summer (2023-2024)"]
 
 
 function Schedule() {
@@ -84,30 +82,7 @@ function Schedule() {
   }
 
 
-  // const events = [
-  //   {
-  //     title: 'zxcvzxc',// để title như tên lớp
-  //     daysOfWeek: '4',
-  //     startTime: '8:00:00',
-  //     endTime: '10:00:00',
-  //     extendedProps: {
-  //       id: 'OOP1',
-  //       beginTime: '20/11/2023',
-  //       finalTime: '20/12/2023'
-  //     },
-  //   },
-  //   {
-  //     title: ' sdfasdf',// để title như tên lớp
-  //     daysOfWeek: ['5'],
-  //     startTime: '8:00:00',
-  //     endTime: '10:00:00',
-  //     extendedProps: {
-  //       id: 'OOP1',
-  //       beginTime: '20/11/2023',
-  //       finalTime: '20/12/2023'
-  //     },
-  //   }
-  // ]
+
 
   const items = [
     {

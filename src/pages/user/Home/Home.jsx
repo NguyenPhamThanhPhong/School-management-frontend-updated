@@ -37,12 +37,12 @@ function Home() {
   const items = [
     {
       key: '1',
-      label: 'Faculty notification',
+      label: 'General notification',
       children: <NotificationList NotiType={'General notification'} NotificationItems={generalPost}></NotificationList>,
     },
     {
       key: '2',
-      label: 'General notification',
+      label: 'Faculty notification',
       children:
         <NotificationList NotiType={'Faculty notification'} NotificationItems={facultyPost}>
         </NotificationList>,
